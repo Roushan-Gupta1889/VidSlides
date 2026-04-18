@@ -1,0 +1,23 @@
+# Dependency directories
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Server temp files (downloaded videos, extracted frames, exports)
+server/tmp/
+
+# Environment files
+.env
+.env.*
+
+# Build output
+client/dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System
+.DS_Store
+Thumbs.db

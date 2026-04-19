@@ -71,14 +71,17 @@ async function generatePdf(slides, title, exportId) {
         }
 
         // Timestamp caption at bottom
-        doc.fontSize(10)
-          .fillColor('#999999')
-          .text(
-            `⏱ ${slide.timestamp}  ·  Slide ${i + 1} of ${slides.length}`,
-            20,
-            doc.page.height - 35,
-            { align: 'center', width: doc.page.width - 40 }
-          );
+        // doc.fontSize(10)
+        //   .fillColor('#999999')
+        //   .text(
+        //     `⏱ ${slide.timestamp}  ·  Slide ${i + 1} of ${slides.length}`,
+        //     20,
+        //     doc.page.height - 35,
+        //     { align: 'center', width: doc.page.width - 40 }
+        //   );
+
+        // my style 
+        
       }
 
       doc.end();

@@ -11,7 +11,7 @@ const steps = [
 
 export default function HowItWorks() {
   return (
-    <section style={{ padding: 'var(--space-4xl) var(--space-xl)' }}>
+    <section id="how-it-works" style={{ padding: 'var(--space-4xl) var(--space-xl)' }}>
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
